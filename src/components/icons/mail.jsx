@@ -1,0 +1,28 @@
+import React from 'react'
+
+export const Mail = () => {
+    return (
+        <svg
+            width="25"
+            height="25"
+            viewBox="0 0 25 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                d="M4.17236 4.59082H20.1724C21.2724 4.59082 22.1724 5.49082 22.1724 6.59082V18.5908C22.1724 19.6908 21.2724 20.5908 20.1724 20.5908H4.17236C3.07236 20.5908 2.17236 19.6908 2.17236 18.5908V6.59082C2.17236 5.49082 3.07236 4.59082 4.17236 4.59082Z"
+                stroke="#FEF3C6"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+            <path
+                d="M22.1724 6.59082L12.1724 13.5908L2.17236 6.59082"
+                stroke="#FEF3C6"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+        </svg>
+    )
+}
