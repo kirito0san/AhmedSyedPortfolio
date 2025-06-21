@@ -17,9 +17,9 @@ export const LanguageSwitcher = () => {
             {/* Current language indicator */}
             <p className='w-[70px]'>{t("toggle_language")}</p>
             {i18n.language === 'ar' ? (
-                <img className='w-[32] h-[32] px-2' src={ar} alt="Arabic Language" />
+                <img className='w-[32px] h-[32px] px-2' src={ar} alt="Arabic Language" />
             ) : (
-                <img className='w-[32] h-[32] px-2' src={en} alt="Arabic Language" />
+                <img className='w-[32px] h-[32px] px-2' src={en} alt="Arabic Language" />
             )}
         </button>
     );
