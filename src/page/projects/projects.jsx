@@ -27,15 +27,15 @@ export const Projects = () => {
                 <div id='content' className=" overflow-hidden !h-max">
                     <NewProjects />
                     {/* Scrollable content */}
-                    <div className="flex justify-center pt-2 !h-max">
+                    {projects && <div className="flex justify-center pt-2 !h-max">
                         <div className='  w-full'>
                             <div id="projectsParent" className='projectsParent grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 w-auto'>
-                                {projects.map((project, index) => (
+                                {projects && projects?.map((project, index) => (
                                     <ProjectCard project={project} index={index} />
                                 ))}
                             </div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
             </div>
         </div >
