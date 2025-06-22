@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getData = async () => {
     try {
-        const data = await axios.get("../../../public/Data.json", {
+        const data = await axios.get("./Data.json", {
             headers: {
                 "Access-Control-Allow-Origin": "*",
                 'Accept': 'application/json',
