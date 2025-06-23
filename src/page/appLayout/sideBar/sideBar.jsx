@@ -47,6 +47,7 @@ export const SideBar = () => {
                     p-5 
                     flex flex-col gap-4 text-xl 
                     items-center
+                    fixed top-5
                     rounded-2xl 
                     bg-[var(--bg-main)]
                    shadow-[0px_0px_17px_-10px_#eee]

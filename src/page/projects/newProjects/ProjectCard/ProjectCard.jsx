@@ -1,10 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
-import { useTranslation } from 'react-i18next';
 
 export const ProjectCard = ({ project }) => {
     const cardRef = useRef(null);
-    const { t } = useTranslation()
     useEffect(() => {
         if (cardRef.current) {
             gsap.fromTo(cardRef.current,
@@ -45,7 +43,7 @@ export const ProjectCard = ({ project }) => {
                     ))}
                 </div>
 
-                <div className="flex justify-center space-x-4">
+                {/* <div className="flex justify-center space-x-4">
                     <a
                         href={project?.liveUrl}
                         className="px-6 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg"
@@ -58,7 +56,7 @@ export const ProjectCard = ({ project }) => {
                     >
                         {project?.githubUrl ? t("gitHub") : t("private")}
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );
